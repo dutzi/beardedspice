@@ -16,7 +16,7 @@ BSStrategy = {
   },
   isPlaying: function () {return !(document.querySelector('video-player video').paused);},
   toggle: function () {
-    var theVideo = document.querySelector('video-player video');
+    var theVideo = document.querySelector('video');
     if (theVideo.paused) { theVideo.play(); }
     else { theVideo.pause() }
   },
